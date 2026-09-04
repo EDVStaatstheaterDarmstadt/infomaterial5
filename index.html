@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<script>
+  const lang = navigator.language || navigator.userLanguage;
+
+  if (lang.startsWith("de")) {
+    window.location.href = "https://cloud.staatstheater-darmstadt.de/s/rKCzZtDsNSe8Y4R";
+  } else if (lang.startsWith("en")) {
+    window.location.href = "https://cloud.staatstheater-darmstadt.de/s/Y8NDbPBbBDZwFp8";
+  } else if (lang.startsWith("fr")) {
+    window.location.href = "https://cloud.staatstheater-darmstadt.de/s/mHD5ApScgRmXDQG"; // EN fallback
+  }
+</script>
+
+<p>Sie werden weitergeleitet…</p>
+</body>
+</html>
